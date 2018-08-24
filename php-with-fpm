@@ -1,0 +1,21 @@
+'./configure' \
+'--build=x86_64-linux-gnu' \
+'--with-config-file-path=/usr/local/etc/php' \
+'--with-config-file-scan-dir=/usr/local/etc/php/conf.d' \
+'--enable-option-checking=fatal' \
+'--with-mhash' \
+'--enable-ftp' \
+'--enable-mbstring' \
+'--enable-mysqlnd' \
+'--with-password-argon2' \
+'--with-sodium=shared' \
+'--with-curl' \
+'--with-libedit' \
+'--with-openssl' \
+'--with-zlib' \
+'--with-libdir=lib/x86_64-linux-gnu' \
+'--enable-fpm' \
+'--with-fpm-user=www-data' \
+'--with-fpm-group=www-data' \
+'--disable-cgi' \
+'build_alias=x86_64-linux-gnu' 
